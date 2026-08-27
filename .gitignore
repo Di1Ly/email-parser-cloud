@@ -1,0 +1,14 @@
+# Byte-compiled files
+__pycache__/
+
+# Virtual environment
+venv/
+.venv/
+
+# Build artifacts
+dist/
+build/
+
+# OS specific files
+*.pyc
+*.egg-info/

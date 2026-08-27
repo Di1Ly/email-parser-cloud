@@ -1,0 +1,7 @@
+# В файле .dockerignore игнорируются ненужные файлы для уменьшения размера образа
+**/node_modules
+__pycache__/
+*.pyc
+.git
+.venv
+/tests/test_parser.py # Тесты не нужны в продакшн образе
